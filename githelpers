@@ -1,10 +1,14 @@
 # File to have helpers to deal with git
 
-# alias gitdownload="git clone $1 && rm -rf .$2/.git"
-
-gitdownload () {
-  repo=${1}
-  folder=${2: .}
-  git clone $repo
-  rm -rf ./$folder/.git
+# Downloads a git repo.
+# Then deleted the .git folder.
+function gitdownload() {
+  if [ -z "$2" ]; then
+    echo "Folder must be specified.";
+  else
+    git clone $1 $2;
+    rm -rf ./$2/.git;
+  fi
 }
+
+export -f gitdownload;
