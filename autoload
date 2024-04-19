@@ -10,3 +10,7 @@ if [ -f ~/bash-linux/githelpers ]; then
     . ~/bash-linux/githelpers
 fi
 
+# Loads utilities commands
+if [ -f ~/bash-linux/utilities ]; then
+    . ~/bash-linux/utilities
+fi

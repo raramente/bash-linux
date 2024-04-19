@@ -1,0 +1,7 @@
+# File with utilities and ease of use.
+
+# Grep (search) through your history for previous run commands
+# Example: hg vim
+function hg() {
+    history | grep "$1";
+}
