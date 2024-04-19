@@ -1,0 +1,4 @@
+# File that includes wsl specific commands.
+
+alias np="/mnt/c/Program Files/Notepad++/notepad++.exe"
+alias nphosts="/mnt/c/Program Files/Notepad++/notepad++.exe /mnt/c/Windows/System32/Drivers/etc/hosts"
