@@ -1,12 +1,3 @@
-# File to be imported from .bashrc that autoloads all of the commands the repo defines.
+# File to have helpers to deal with git
 
-# Loads wsl specific commands.
-if [ -f ~/bash-linux/wsl ]; then
-    . ~/bash-linux/wsl
-fi
-
-# Loads git helpers commands
-if [ -f ~/bash-linux/githelpers ]; then
-    . ~/bash-linux/githelpers
-fi
-
+alias gitdownload 
