@@ -11,4 +11,5 @@ function gitdownload() {
   fi
 }
 
-export -f gitdownload;
+# This generates an error on zsh.
+# export -f gitdownload;
