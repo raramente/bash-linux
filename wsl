@@ -1,6 +1,6 @@
 # File that includes wsl specific commands.
 
 export PATH="$PATH:/mnt/c/'Program Files'/Oracle/VirtualBox"
-
+export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
 
 alias np="/mnt/c/'Program Files'/Notepad++/notepad++.exe"
